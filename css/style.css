@@ -62,7 +62,7 @@ header{
 
  /* column 1 part 1 */
  #column1-part1{
-   width: 70%;
+   width: 73%;
  }
 
  #column1-part1 a{
@@ -76,7 +76,7 @@ header{
 
  /* column 2 part 1 */
  #column2-part1 {
-   width: 30%;
+   width: 27%;
  }
 
  #column2-part1 li{
@@ -163,9 +163,52 @@ header{
  /* section 2 main */
  #section2{
    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
-   /* debug */
-   height: 50vh;
  }
+
+ #section2 *{
+   color:white;
+ }
+ /* block text */
+ #block-text{
+   text-align: center;
+   padding-top: 50px;
+ }
+
+ #block-text h1{
+   font-size: 2em;
+   padding-bottom: 30px;
+ }
+
+
+
+ /* block lines */
+ #block-lines{
+   padding: 50px 0;
+ }
+
+  .lines .colonna{
+   text-align: center;
+   display: inline-block;
+ }
+
+ .lines:last-child{
+   border-top: solid 2px white;
+ }
+
+ .colonna{
+   border-right: solid 1px white;
+   padding: 30px 0;
+   width: 24%;
+ }
+
+ .colonna:last-child{
+   border-right: 0px;
+ }
+
+ .colonna *{
+   padding-bottom: 5px;
+ }
+
 
  /* section3 main */
  #section3{
