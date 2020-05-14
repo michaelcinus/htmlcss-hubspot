@@ -44,7 +44,7 @@ header{
  }
 
  #part1 li{
-   display: inline-table;
+   display: inline-block;
  }
 
  #part1 a{
@@ -97,10 +97,39 @@ header{
 
  /* parte2 header */
  #part2{
+   padding-top: 80px;
    background-color: white ;
-   /* debug */
-   height: 15vh;
  }
+
+ #part2 li{
+   display: inline-block;
+ }
+
+ #part2 a{
+   font-size: 1.5em;
+   text-decoration: none;
+ }
+
+ #column1-part2, #column2-part2 {
+   padding: 20px;
+   float: left;
+ }
+
+ /* column 1 part2 */
+ #column1-part2{
+   width: 40%;
+ }
+
+ /* column 2 part2 */
+ #column2-part2{
+   width: 60%;
+ }
+
+ #column2-part2 a{
+   color: #1f274e;
+   padding-left: 20px;
+ }
+
 
 /* main page */
  /* section1 main */
