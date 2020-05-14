@@ -58,3 +58,10 @@ header{
    /* debug */
    height: 50vh;
  }
+
+/* footer */
+footer{
+  background-color: #33475b;
+  /* debug */
+  height: 50vh;
+}
