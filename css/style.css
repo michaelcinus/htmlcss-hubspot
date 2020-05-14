@@ -1,5 +1,6 @@
 /* general predisposition */
 *{
+  color: #33475b;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -66,7 +67,6 @@ header{
 
  #column1-part1 a{
    padding-right: 10px;
-   color: black;
  }
 
  #column1-part1 li:last-child{
@@ -126,8 +126,29 @@ header{
  }
 
  #column2-part2 a{
-   color: #1f274e;
    padding-left: 20px;
+ }
+
+ /* part 3 header */
+ #text-part3{
+   margin-top: 50px;
+   width: 40%;
+ }
+
+ #text-part3 h1{
+   font-size: 2.5em;
+   margin-bottom: 15px;
+ }
+
+ #text-part3 p{
+   padding: 15px 0;
+ }
+
+ #text-part3 .orange{
+   text-align: center;
+   width: 45%;
+   padding: 15px 7px;
+   margin: 15px 0;
  }
 
 
