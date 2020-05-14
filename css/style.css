@@ -4,3 +4,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* container predisposition */
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header page */
+header{
+  background: url('../img/jumbotron.png') no-repeat;
+  background-size: 100%;
+  background-position: 100% bottom;
+  /* debug */
+  height: 850px;
+}
+
+ /* part1 header */
+ #part1{
+   width: 100%;
+   background-color: #e2e1e1;
+   border-bottom: solid 1px #b5b3b3;
+   position: fixed;
+   z-index: 999;
+   /* debug */
+   height: 100px;
+ }
+
+ /* parte2 header */
+ #part2{
+   background-color: white ;
+   /* debug */
+   height: 100px;
+ }
