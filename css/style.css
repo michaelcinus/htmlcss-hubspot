@@ -32,7 +32,7 @@ header{
   background-size: 100%;
   background-position: 100% bottom;
   /* debug */
-  height: 125vh;
+  height: 100vh;
 }
 
  /* part1 header */
@@ -43,7 +43,7 @@ header{
    border-bottom: solid 1px #e2e1e1;
    position: fixed;
    z-index: 999;
-   padding: 25px 0;
+   padding: 2% 0;
  }
 
  #part1 li{
@@ -52,10 +52,6 @@ header{
 
  #part1 a{
    text-decoration: none;
- }
-
- #part1 i{
-   padding: 0 5px;
  }
 
  #column1-part1, #column2-part1 {
@@ -82,7 +78,7 @@ header{
  }
 
  #column2-part1 li{
-   padding-left: 15px;
+   padding-left: 5%;
  }
 
  #login{
@@ -119,12 +115,13 @@ header{
 
  /* column 1 part2 */
  #column1-part2{
-   width: 35%;
+   width: 10%;
  }
 
  /* column 2 part2 */
  #column2-part2{
-   width: 65%;
+   width: 90%;
+   padding-left: 40%;
  }
 
  #column2-part2 a{
@@ -133,13 +130,13 @@ header{
 
  /* part 3 header */
  #text-part3{
-   margin-top: 7%;
+   margin-top: 3%;
    width: 40%;
  }
 
  #text-part3 h1{
    font-size: 2.5em;
-   margin-bottom: 15px;
+   margin-bottom: 5%;;
  }
 
  #text-part3 p{
