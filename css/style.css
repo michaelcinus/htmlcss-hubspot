@@ -98,7 +98,7 @@ header{
 
  /* parte2 header */
  #part2{
-   padding-top: 80px;
+   padding-top: 15vh;
    background-color: white ;
  }
 
@@ -112,7 +112,7 @@ header{
  }
 
  #column1-part2, #column2-part2 {
-   padding: 20px;
+   padding: 1%;
    float: left;
  }
 
@@ -132,7 +132,7 @@ header{
 
  /* part 3 header */
  #text-part3{
-   margin-top: 50px;
+   margin-top: 7%;
    width: 40%;
  }
 
@@ -157,8 +157,138 @@ header{
  /* section1 main */
  #section1{
    background-color: #f5f8fa;
-   /* debug */
-   height: 50vh;
+ }
+
+ /* block 1 section 1 main */
+ #block1-section1{
+   padding: 5%;
+   text-align: center;
+ }
+
+ #block1-section1 img{
+   width: 20%;
+ }
+
+ #block1-section1 h2{
+   padding-bottom: 2%;
+
+ }
+
+ /* block 2 section 1 main */
+ #block2-section1{
+   background-color: white;
+   margin-bottom: 5%
+ }
+
+ #block2-section1:after{
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ #subblockl-block2{
+   text-align: center;
+   float: left;
+   width: 30%;
+ }
+
+ #subblockl-block2 img{
+   width: 50%;
+   padding: 4% 0;
+   margin-top: 15%;
+ }
+
+ #subblockl-block2 .orange{
+   margin-bottom: 25%;
+   margin-left: 25%;
+   width: 50%;
+   padding: 4%;
+ }
+
+ #subblock2-block2{
+   float: left;
+   width: 70%;
+ }
+
+ #subblock2-block2 h2{
+   margin-top: 8%;
+ }
+
+ #subblock2-block2 p{
+   padding-top: 3%;
+   padding-right: 20%;
+ }
+
+ #subblock2-block2 h4{
+   padding-top:3%;
+ }
+
+#subblock2-block2 ul{
+  text-decoration: none;
+}
+
+
+ #subblock2-block2 li{
+   display: inline-block;
+   padding-top: 3%;
+   padding-right: 3%;
+ }
+
+ /* block 3 section 1 main */
+ .column-block3{
+   height: 720px;
+   width: 30%;
+   margin-left: 3%;
+   float: left;
+   background: white;
+   margin-bottom: 5%;
+   text-align: center;
+ }
+
+ .column-block3 img{
+   height: 20%;
+   width: 30%;
+   margin: 10% 0;
+ }
+
+
+ .column-block3 h3{
+   margin: 2% 0;
+ }
+
+ .column-block3 p{
+   padding: 5% 0 10% 0;
+ }
+
+ .column-block3 hr{
+   margin: 10%;
+   width: 80%;
+
+ }
+
+ .column-block3 h4{
+   padding: 5% 0;
+ }
+
+ .column-block3 ul{
+   list-style-type: none;
+   padding: 5% 0;
+ }
+
+ .column-block3 li{
+   text-align: left;
+   padding-left: 20%;
+ }
+
+ .column-block3 i{
+   color: #ff7a59;
+ }
+
+
+ .column-block3 .orange{
+   padding: 4% 0;
+   width: 50%;
+   margin: 10% auto;
  }
 
  /* section 2 main */
@@ -214,9 +344,6 @@ header{
 
 
  /* section3 main */
- #section3{
-
- }
 
  /* block1 section3 */
  #block1-section3{
@@ -224,33 +351,32 @@ header{
  }
 
  /* line 1 block 1 section3 */
- #column1-section3{
+ #column1-blockl{
    float: left;
    width: 25%;
  }
 
- #column1-sector3 p{
+ #column1-blockl p{
    width: ;
  }
 
- #column2-section3{
+ #column2-blockl{
    float: left;
    padding-left: 15%;
    width: 70%;
  }
 
- #column2-section3 div{
+ #column2-blockl div{
    float: left;
    width: 25%;
    height: 50%;
    padding: 10px;
  }
 
- #column2-section3 img{
+ #column2-blockl img{
    text-align: center;
    vertical-align: middle;
    width: 100%;
-   height: 100%;
    padding: 5px;
  }
 
