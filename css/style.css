@@ -35,6 +35,33 @@ a{
   clear: both;
 }
 
+/* mutandine */
+.mutandine {
+  display: none;
+  border: solid 1px black;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+  width: 20%;
+}
+
+.mutandine a{
+  margin: 10%;
+}
+
+#part1 .mutandine{
+  width: 7%;
+}
+
+.tenda:hover .mutandine  {
+  display: block;
+}
+
+.mutandine a:hover{
+  color: red;
+}
+
+
 /* header page */
 header{
   background: url('../img/jumbotron.png') no-repeat;
