@@ -7,11 +7,20 @@
   color: #33475b;
 }
 
+a{
+  text-decoration: none;
+}
+
+
 /* button orange */
 .orange{
   border-radius: 5px;
   background-color: #ff7a59;
   color: white;
+}
+
+.orange:hover{
+  opacity: 0.5;
 }
 
 /* container predisposition */
@@ -50,10 +59,6 @@ header{
    display: inline-block;
  }
 
- #part1 a{
-   text-decoration: none;
- }
-
  #column1-part1, #column2-part1 {
    float: left;
  }
@@ -84,9 +89,13 @@ header{
  #login{
    background-color: white;
    border-radius: 5px;
-   border: solid 2px #ff7a59;
+   border: solid 1px #ff7a59;
    color:#ff7a59;
    padding: 9px 17px;
+ }
+
+ #login:hover{
+   background-color: rgba(255, 152, 0, 0.05);
  }
 
  #column2-part1 .orange{
@@ -105,7 +114,6 @@ header{
 
  #part2 a{
    font-size: 1.5em;
-   text-decoration: none;
  }
 
  #column1-part2, #column2-part2 {
@@ -157,6 +165,7 @@ header{
    background-color: #f5f8fa;
  }
 
+
  /* block 1 section 1 main */
  #block1-section1{
    padding: 5%;
@@ -176,6 +185,15 @@ header{
  #block2-section1{
    background-color: white;
    margin-bottom: 5%
+ }
+
+ #block2-section1:hover{
+   padding: 2%;
+   opacity: 0.6;
+ }
+
+ #block2-section1 i{
+   color: #ff7a59;
  }
 
  #block2-section1:after{
@@ -221,10 +239,15 @@ header{
    padding-top:3%;
  }
 
+ #subblock2-block2 hr{
+   float: right;
+   width: 60%;
+   margin-right: 20%;
+ }
+
 #subblock2-block2 ul{
   text-decoration: none;
 }
-
 
  #subblock2-block2 li{
    display: inline-block;
@@ -233,6 +256,11 @@ header{
  }
 
  /* block 3 section 1 main */
+
+ .column-block3:hover{
+   padding: 2%;
+   opacity: 0.6;
+ }
 
  .column-block3{
    width: 30%;
@@ -396,7 +424,6 @@ header{
  }
 
  #column1-block2 a{
-   text-decoration: none;
    padding: 15px;
  }
 
@@ -420,6 +447,10 @@ footer *{
   color: white;
 }
 
+footer a:hover{
+  color: #0091ae;
+}
+
 
 /* area1 */
 .column-area1 {
@@ -438,10 +469,6 @@ footer *{
 
 }
 
-.column-area1 a{
-  text-decoration: none;
-}
-
 #button-footer a{
   width: 80%;
   border-radius: 5px;
@@ -453,7 +480,11 @@ footer *{
 }
 
 .column-area1 i{
-  margin-right:  3%;
+  margin-right:  5%;
+}
+
+.column-area1 i:hover{
+  color: #0091ae;
 }
 
 /* area2 */
@@ -474,7 +505,6 @@ footer *{
 
 #area2 a{
   padding-right: 3%;
-  text-decoration: none;
 }
 
 #area3{
@@ -492,6 +522,5 @@ footer *{
 }
 
 #column2-area3 a{
-  text-decoration: none;
   padding-left: 3%;
 }
